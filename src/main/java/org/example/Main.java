@@ -26,23 +26,11 @@ public class Main {
      * @return The second letter of the string
      */
     public static String getSecondLetter(String s, List<String> logMessages) {
-        // TODO: Handle the StringINdexOutOfBoundsException by returning an empty string ("")
+        // TODO: Handle the StringIndexOutOfBoundsException by returning an empty string ("")
         return s.substring(1, 2);
 
         // TODO: This line needs to happen after the try/catch block, regardless of whether an exception is thrown (use a finally block)
         // logMessages.add("Exiting method");
-    }
-
-    /**
-     * Read a fake file and return its contents.
-     *
-     * @param logMessages List of log messages to add to
-     * @return The contents of the faked file
-     */
-    public static String readFile(List<String> logMessages) {
-        // TODO: Initialize the FakeFileReader in a try-with-resources block to make sure it closes and updates the logMessages list
-        FakeFileReader reader = new FakeFileReader(logMessages);
-        return reader.read();
     }
 
     /**

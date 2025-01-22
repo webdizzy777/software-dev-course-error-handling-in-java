@@ -36,18 +36,6 @@ public class ExerciseTests {
     }
 
     /**
-     * Test the readFile method.
-     */
-    @Test
-    public void testReadFile() {
-        var logMessages = new java.util.ArrayList<String>();
-        var result = Main.readFile(logMessages);
-
-        assertEquals("Hello world", result);
-        assertEquals(1, logMessages.size());
-    }
-
-    /**
      * Test the safeDivideWithCustomException method.
      */
     @Test

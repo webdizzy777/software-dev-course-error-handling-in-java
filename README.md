@@ -11,13 +11,10 @@ To get started, open the project file located in
 ## Project Overview 
 
 This project contains a `Main` class that contains several methods that
-demonstrate various aspects of error handling in Java.  There are two other
+demonstrate various aspects of error handling in Java.  There is one other
 supporting classes in the project:
 
-1. The `FakeFileReader` class is a fake implementation of a file reader that is
-   used to demonstrate how to handle exceptions in Java. *You **WILL NOT** Need
-   to modify this class.*
-2. The `CustomDivideByZeroException` class is a custom exception that is thrown
+1. The `CustomDivideByZeroException` class is a custom exception that is thrown
    when a division by zero is attempted. *You **WILL** need to modify this
    class.*
 
